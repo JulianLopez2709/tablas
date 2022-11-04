@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html{
+    scroll-behavior: smooth;
+ }
+body{
+    font-family: sans-serif;
+    text-align: center;  
+}
+
+header{
+    border: 1px soid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.menu{
+    display: flex;
+    
+}
+a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+h1{
+    margin: 20px;
+    font-size: 3.5em;
+    
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+thead{
+    background-color: grey;
+}
+.section{
+    justify-content: space-between;
+    display: flex;
+}
+
+.section p{
+    margin: 10px;
+    font-size: 0.8em;
+}
+.font{
+    font-size: 0.4em;
+    margin: 10px;
+}
